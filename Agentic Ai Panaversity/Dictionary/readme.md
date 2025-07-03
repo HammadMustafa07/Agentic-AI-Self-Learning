@@ -15,3 +15,6 @@ In agentic AI systems, this API is used like the AI's brain — it processes inp
 
 Responses API: Responses API includes everything the Chat Completion API can do — and more.
 In other words, the Responses API is a newer, more powerful version of the Chat Completion API. It keeps all the features you’re used to, but adds extra capabilities specifically built for agentic AI (like tool use, memory, file handling, and step-by-step planning).
+
+
+Handsoff: agent transferring task to another 
