@@ -1,1 +1,3 @@
-pip install python-dotenv openai-agents chainlit
+python-dotenv
+chainlit
+openai-agents
