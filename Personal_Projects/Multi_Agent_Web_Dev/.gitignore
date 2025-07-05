@@ -1,72 +1,106 @@
-# Byte-compiled / optimized / DLL files
+# =============================
+# 🔧 Python Compiled Artifacts
+# =============================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
+# =============================
+# 🧪 Virtual Environments
+# =============================
 .venv/
 env/
 venv/
+ENV/
+.ENV/
 
-# Environment variables
+# =============================
+# 🔐 Environment Variables
+# =============================
 .env
 .env.*
 .env*.local
+*.env
 
-# VSCode settings
+# =============================
+# 💻 Editor & OS Files
+# =============================
 .vscode/
-
-# OS generated files
+.idea/
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
 
-# Python dependency files
+# =============================
+# 📦 Python Dependency Logs
+# =============================
 pip-log.txt
 pip-delete-this-directory.txt
 
-# pytest
+# =============================
+# 🧪 Testing Tools
+# =============================
 .cache/
 .pytest_cache/
-
-# mypy
 .mypy_cache/
+.pytest_cache/
+.pytype/
 
-# coverage reports
+# =============================
+# 📊 Coverage Reports
+# =============================
 htmlcov/
 .coverage
 .coverage.*
-.cache
-nosetests.xml
 coverage.xml
+nosetests.xml
 *.cover
 *.py,cover
 
-# FastAPI + Uvicorn specific (optional logs or temp files)
+# =============================
+# 🚀 FastAPI / Uvicorn
+# =============================
 *.log
+*.pid
 *.sqlite3
 
-# pyinstaller
+# =============================
+# 📦 Packaging / Build Artifacts
+# =============================
 *.spec
 build/
 dist/
+*.egg-info/
+.eggs/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# =============================
+# 📓 Jupyter Notebooks
+# =============================
+.ipynb_checkpoints/
 
-# test and debug artifacts
-*.pid
-*.log
-*.bak
-*.swp
-*.tmp
-
-# pyright
+# =============================
+# ⚙️ Pyright / Type Checkers
+# =============================
 pyrightconfig.json
 
-# Local SQLite or DB files
-*.db
-*.sqlite
+# =============================
+# 🧪 Temp / Debug Artifacts
+# =============================
+*.bak
+*.tmp
+*.old
+*.lock
 
-# chainlit
+# =============================
+# 🧠 Chainlit Specific
+# =============================
+.chainlit/
 chainlit.log
 chainlit.db
+
+# =============================
+# 🗃️ Local DBs
+# =============================
+*.db
+*.sqlite
