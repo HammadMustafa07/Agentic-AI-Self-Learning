@@ -1,0 +1,1 @@
+pip i python-dotenv openai-agents chainlit
