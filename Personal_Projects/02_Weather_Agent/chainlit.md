@@ -1,14 +1,46 @@
-# Welcome to Chainlit! 🚀🤖
+# 🌦️ Welcome to the Weather Agent!  
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there! 👋  
+I'm your **AI Weather Assistant**, built with the power of **OpenAI Agents SDK**, **Gemini via OpenRouter**, and **Chainlit**.
 
-## Useful Links 🔗
+---
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
+## 🧠 What I Can Do
 
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
+🔍 **Answer weather-related questions** in real time.  
+🌤️ **Fetch live weather updates** for any city.  
+🚫 **Ignore non-weather questions** using intelligent input/output guardrails.  
+🛡️ **Stay focused** and safe by never going off-topic.
 
-## Welcome screen
+---
 
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+## 🤖 How to Use Me
+
+Just type something like:
+
+- **"What's the weather in Lahore?"**
+- **"Tell me the current temperature in New York."**
+- **"Is it raining in Tokyo?"**
+
+⚠️ If you ask something off-topic (like jokes or math problems), I’ll politely let you know I’m here only for the weather. 😉
+
+---
+
+## ⚙️ Under the Hood
+
+- 🧩 **Framework**: Chainlit + Agents SDK  
+- 💬 **Model**: Gemini 2.0 via OpenRouter  
+- ☁️ **Weather Source**: WeatherAPI  
+- 🔒 **Guardrails**: Input and output filters to keep things weather-specific
+
+---
+
+## 🙏 Credits
+
+Built with ❤️ by Hammad Mustafa  
+Gratitude to my mentors and the Agentic AI community for inspiration and support.
+
+---
+
+Enjoy your chat!  
+Let’s find out if you need an umbrella today ☔ or sunglasses 😎!
