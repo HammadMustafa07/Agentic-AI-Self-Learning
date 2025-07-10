@@ -1,0 +1,16 @@
+Python_First Design: 
+The OPEN AI SDK framework is designed to integrate naturally with python
+developers can easily and wuickly make agents to perfrom various tasks. they can define python
+functions that will work like agent tools and chain together workflows with without needing
+a steep learning curve
+
+
+Built in Agent Loop:
+When we run a agent it automatically enters a loop where it 
+sends a prompt to the llm 
+check if it needs to use any tool
+handles handsoff if needed
+repeats until the final output
+
+
+

@@ -1,0 +1,9 @@
+Agent : A powerful AI that can plan, reason, use tools (APIs, web), and act on behalf of users to complete tasks.
+
+Hands-off: When an agent cannot complete a task on its own, it can hand off that task to another specialized agent that can do it better. This creates a chain of agents working together.
+
+GuardRails: Guardrails are safety rules or checks that control what an AI agent can say or do. They make sure the agent stays safe, secure, and on-task.
+
+
+
+

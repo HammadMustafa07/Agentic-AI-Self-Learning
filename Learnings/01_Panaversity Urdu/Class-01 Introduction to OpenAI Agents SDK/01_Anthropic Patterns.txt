@@ -1,0 +1,17 @@
+01_Prompt Chaining:
+This pattern involves breaking user's task into small manageable steps where each step is 
+built upon the previous one
+
+
+02_Routing:
+Routing means sending a specific task to the right agent based on what the task is.
+
+
+03_Parallelization:
+Parallelization means running multiple things at the same time instead of one by 
+one (sequentially). It’s like doing multiple tasks together to save time and improve 
+efficiency.
+
+04_Orchestrator-Workers:
+
+ 
