@@ -13,5 +13,14 @@ one (sequentially). It’s like doing multiple tasks together to save time and i
 efficiency.
 
 04_Orchestrator-Workers:
+The orchestrator is like a manager in a company. It breaks down a big task 
+into smaller steps, assigns those steps to worker agents who are good at them, 
+and then combines all the results to complete the main task
+
+05_Evaluator-Optimizer:
+After the worker agent completes its task, the evaluator (or manager) agent 
+reviews the output and suggests improvements. This process repeats in a loop 
+until the final result meets the desired quality/ff
+
 
  

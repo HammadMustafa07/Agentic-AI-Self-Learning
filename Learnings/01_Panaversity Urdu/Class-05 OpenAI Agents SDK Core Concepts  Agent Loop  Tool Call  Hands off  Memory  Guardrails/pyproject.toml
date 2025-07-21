@@ -1,0 +1,7 @@
+[project]
+name = "class-05-openai-agents-sdk-core-concepts-agent-loop-tool-call-hands-off-memory-guardrails"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
