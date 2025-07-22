@@ -1,38 +1,44 @@
-This is the diagram of addoption of chatcompletionapi adoption by other companies after seeing open ai sdk ChatCompletionAPi api
+# 📚 Topics I Have Learned So Far  
 
-ChatCompletionAPi // is the way of talking to llm
-    |
-RestApi
+- 🤖 **ChatCompletion API**  
+  - How it works  
+  - How companies adopted it  
 
------------------------------------------------------
+- 👫 **Multi-Agent with Hands-Off Approach**  
+  - Agents working together or alone with minimal human help  
 
-🤖 Multi-Agent with Hands-Off:
-Many agents work together or alone with little human help after starting.
-They solve tasks by talking to each other or acting on their own.
+- 🛠️ **LangGraph**  
+  - Building your own agent loop  
+  - Why it has a steep learning curve  
 
------------------------------------------------------
+- 💬 **Responses API**  
+  - Superset of ChatCompletion API  
+  - Features like memory, tool calling, async execution  
 
-LangGraph:
-we have to built the agent loop on our own this is an example of how was langGraph was difficult and many people sayed that langraph starting learning curve is difficult
+- 🗺️ **System Diagram & Layers**  
+  - Memory Layer  
+  - Agent Loop  
+  - ChatCompletion/Responses API  
+  - REST API  
+  - LLM  
 
------------------------------------------------------
-Responses Api:
-Responses Api is a superset of chatcompletion api it is not called officially but logically can be called
- Uses ChatCompletion models under the hood
+- 🧠 **Memory Layer**  
+  - What it does  
+  - How to implement it  
+  - Example of using memory with LLM  
 
-✅ Supports multi-turn conversations with memory (via Threads)
+- ⚙️ **Workflows vs. 🤖 Agents**  
+  - Differences between workflows and agents  
+  - When to use which  
 
-✅ Manages conversation state automatically
+- 🛡️ **Input Guardrails**  
+  - Checking user input for safety and correctness  
 
-✅ Asynchronous execution with Runs & polling
+- 🛡️ **Output Guardrails**  
+  - Checking LLM outputs before sending them to users  
 
-✅ Built-in advanced Tool Calling system
+- 🗺️ **Production-Level Guardrail Flow**  
+  - End-to-end diagram of input/output guardrails in a real system  
 
-Code Interpreter (Python)
-
-File Search / Retrieval
-
-Function Calling with external APIs
-
------------------------------------------------------
+---
 
