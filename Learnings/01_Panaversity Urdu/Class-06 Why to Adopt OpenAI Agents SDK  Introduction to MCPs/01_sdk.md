@@ -1,0 +1,1 @@
+different companies made different python pakages to allow devs to connect with their llms and those pakages were names as sdk's
